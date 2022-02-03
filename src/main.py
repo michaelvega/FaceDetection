@@ -2,7 +2,7 @@ from lib import *
 
 
 def main():
-    original_image = cv.imread('stockimage3.jpg')
+    original_image = cv.imread('./res/stockimage3.jpg')
 
     grayscale_image = cv.cvtColor(original_image, cv.COLOR_BGR2GRAY)
 
